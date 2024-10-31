@@ -22,7 +22,7 @@ The method also assumes that the reader has some working knowledge of the CC AVA
 # Table of contents
 The main methods are based on the general type of TOE to be evalauted
 
- - [Prerequisites](_0_Linux_pentest/0_Prerequisites.md) gives hints to gain some acutally valuable information from the underlying documentation (ADV/ALC). It also lists tests that needs to be performed to have a first inventory of what is running on the product to be evaluated (inventory script, network scan...). It defines first elements to devise a test strategy   
+ - [Prerequisites](_0_Linux_pentest/0_Prerequisites.md) lists what information is to be gained from the developer documentation (ADV/ALC). It also defines tests for a first inventory the product to be evaluated (inventory bash script, network scan...). It defines first criteria for a basic test plan.   
  - [Linux system pentesting](_0_Linux_pentest/1_Linux_system_pentesting.md) is a method for pentesting applicative TOEs that run on Linux, or full systems based on a Linux OS
  - [Windows system pentesting](...) [not yet planned] 
  - [Mobile system pentesting](...) [not yet planned]
