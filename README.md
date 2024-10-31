@@ -1,8 +1,4 @@
----
-title: SW pentesting for Enhanced-Basic attack potential (index)
----
-
-# Why this method
+# What is a _SW pentesting method_ for _Enhanced-Basic attack potential_ ?
 
 When performing product evaluation following Common Criteria (or ISO/IEC 15408/18045, which we will later call CC), one will have to perform vulnerability analysis (a.k.a. AVA_VAN). The standard gives some expectations of which activities have to be performed (spoiler alert: *penetration testing* is expected) and it also provides a scale of increasing effort that will result in increasing assurance in the product resistance. However, it remains a technology-agnostic standard, and does not really got into any depth wrt actual testing methods, tools or state-of-the-art.
 
