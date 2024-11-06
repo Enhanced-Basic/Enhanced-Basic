@@ -20,13 +20,12 @@ On the other end, there are online and paper resources, as well as professional 
 This set of documents and resources intends to help an evaluator in the course of performing a vulnerability analysis in the context of a **software CC evaluation at the level AVA\_VAN.3**. This makes it somehow relevant as well for standards such as FitCEM/CSPN/BSZ, that are meant as simplified versions of this standard at this specific level.
 
 # Evaluation prerequisites
-The [Prerequisites](Linux\_pentest/0\_Prerequisites.md) refine the CC requirements  in order to ensure that the information given in the ADV\_ and ALC\_ activities is ultimately relevant for the subsequent AVA\_VAN activities.
+The [Prerequisites](Linux\_pentest/0\_Prerequisites.md) refine the CC requirements in order to ensure that the information given in the ADV\_ and ALC\_ activities is ultimately relevant for the subsequent AVA\_VAN activities. The evaluator *must* participate in the ADV review and make sure that these prerequisites are met. 
 
 
 _Rationale:_
 
 _The main principle to understand is that **a product AVA\_VAN evaluation is not a CTF, it is not even pentesting** ! An evaluator that spends only 2 weeks of pentests is supposed to conclude whether it will resist 2 months of analysis in a black-box setting by an attacker with a similar skillset (see \[CEM, B.4.2.3 Calculation of attack potential]). To be able to make such a claim, the evaluator _must_ leverage more information (and access) than this hypothetical  attacker would possess:_
- - _The evaluator *must* participate in the ADV review_
  - _The evaluator is in a **white box** situation, and will often have a **privileged account** on the TOE to be tested. This is partly true even in a BSZ/CSPN evaluation: even if source code is not available, a privileged access to the TOE is provided._
  - _Not only this, but the evaluator is in a **chosen white box**, in the sense that they can ask clarification/edits to the documentation as they see fit (within the limits of the CC requirements)_
  - _The analysis relies on the scoring of attacks on an attack potential scale, which means that the evaluator **does not have to actually perform attacks** whenever a vulnerability is scored as low enough._
