@@ -8,19 +8,21 @@ _This set of documents and resources are a work in progress, and will likely alw
 
 # Why this method
 
-When performing product evaluation following Common Criteria (or ISO/IEC 15408/18045, which we will later call CC), one will have to perform vulnerability analysis (a.k.a. AVA\_VAN). The standard gives some expectations of which activities have to be performed (spoiler alert: _penetration testing_ is expected) and it also provides a scale of increasing effort that will result in increasing assurance in the product resistance. However, it remains a technology-agnostic standard, and does not really got into any depth wrt actual testing methods, tools or state-of-the-art.
+**This set of documents and resources intends to help an evaluator in the course of performing a vulnerability analysis in the context of a *software CC evaluation at the level AVA\_VAN.3*. This makes it somehow relevant as well for standards such as FitCEM/CSPN/BSZ, that are meant as simplified versions of this standard at this specific level.**
 
-On the other end, there are online and paper resources, as well as professional training and CTF competitions, related to penetration testing. Unfortunately, it is not always trivial to adapt this body of knowledge to CC evaluation, for several reasons:
+_Rationale:_
 
- - it is non trivial to map a given tool or technique to a CC "attack potential";
- - penetration testing / CTF often addresses live systems populated with user data, rather than out-of-the-box products, which makes attack paths sometimes irrelevant in the context of a CC evaluation.
- - penetration testing / CTF frequently focus on the exploit, or at least the proof-of-concept, when CC focuses on identifying a vulnerability and being able to measure its gravity and exploitability: performing a PoC is an unnecessary cost during an evaluation
- - last, but not least, CC focuses on gray-box and white-box testing, allowing for lots of shortcuts compared to a "real" (read: "black-box") pentest
+_When performing product evaluation following Common Criteria (or ISO/IEC 15408/18045, which we will later call CC), one will have to perform vulnerability analysis (a.k.a. AVA\_VAN). The standard gives some expectations of which activities have to be performed (spoiler alert: _penetration testing_ is expected) and it also provides a scale of increasing effort that will result in increasing assurance in the product resistance. However, it remains a technology-agnostic standard, and does not really got into any depth wrt actual testing methods, tools or state-of-the-art. On the other end, there are online and paper resources, as well as professional training and CTF competitions, related to penetration testing. Unfortunately, it is not always trivial to adapt this body of knowledge to CC evaluation, for several reasons:_
 
-This set of documents and resources intends to help an evaluator in the course of performing a vulnerability analysis in the context of a **software CC evaluation at the level AVA\_VAN.3**. This makes it somehow relevant as well for standards such as FitCEM/CSPN/BSZ, that are meant as simplified versions of this standard at this specific level.
+ - _it is non trivial to map a given tool or technique to a CC "attack potential";_
+ - _penetration testing / CTF often addresses live systems populated with user data, rather than out-of-the-box products, which makes attack paths sometimes irrelevant in the context of a CC evaluation._
+ - _penetration testing / CTF frequently focus on the exploit, or at least the proof-of-concept, when CC focuses on identifying a vulnerability and being able to measure its gravity and exploitability: performing a PoC is an unnecessary cost during an evaluation_
+ - _last, but not least, CC focuses on gray-box and white-box testing, allowing for lots of shortcuts compared to a "real" (read: "black-box") pentest_
+
 
 # Evaluation prerequisites
-The [Prerequisites](Linux\_pentest/0\_Prerequisites.md) refine the CC requirements in order to ensure that the information given in the ADV\_ and ALC\_ activities is ultimately relevant for the subsequent AVA\_VAN activities. The evaluator *must* participate in the ADV review and make sure that these prerequisites are met. 
+
+**The [Prerequisites](Linux\_pentest/0\_Prerequisites.md) refine the CC requirements  in order to ensure that the information given in the ADV\_ and ALC\_ activities is ultimately relevant for the subsequent AVA\_VAN activities. The evaluator *must* participate in the ADV review and make sure that these prerequisites are met. **
 
 
 _Rationale:_
@@ -35,15 +37,15 @@ _In theory, CC requires such documentation and access, but the standard expresse
 
 # Evaluation methodology
 
-This method aims at providing a **limited set of choices for the evalautor**, so that they do not get lost during their assessment. The following methods are available:
+**This method aims at providing a limited set of choices for the evaluator, so that they do not get lost during their assessment. The following methods are available:**
 
- - [Linux system pentesting](Linux\_pentest/1\_Linux\_system\_pentesting.md) is a general method for pentesting applicative TOEs that run on Linux, or full systems based on a Linux OS
- - Supporting methods:
-   - [Additional network methods](Linux_pentest/2_Additional_network_methods.md)
-   - Code review:
-     - [C code review](Linux\_pentest/Code\_review/C\_code\_review\_VAN3.md)
-     - Python code review \[planned but not started yet]
-   - [Public vulnerability analysis](\_1\_Public\_vulnerability\_analysis/Public\_vulnerability\_analysis\_101.md) \[planned but not started yet]
+ - **[Linux system pentesting](Linux\_pentest/1\_Linux\_system\_pentesting.md) is a general method for pentesting applicative TOEs that run on Linux, or full systems based on a Linux OS**
+ - **Supporting methods:**
+   - **[Additional network methods](Linux_pentest/2_Additional_network_methods.md)**
+   - **Code review:**
+     - **[C code review](Linux\_pentest/Code\_review/C\_code\_review\_VAN3.md)**
+     - **Python code review \[planned but not started yet]**
+   - **[Public vulnerability analysis](\_1\_Public\_vulnerability\_analysis/Public\_vulnerability\_analysis\_101.md) \[planned but not started yet]**
 
 _Rationale:_
 
