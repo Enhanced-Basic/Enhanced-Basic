@@ -7,11 +7,11 @@ description: A software AVA_VAN.3 method for Linux-based TOEs
 <div class="warning" style='padding:0.1em; background-color:#E9D8FD; color:#69337A'>
 <span>
 <p style='margin-top:1em; text-align:center'>
-This set of documents and resources are a work in progress, and will likely always be only that. It is mainly built as I am learning pentesting, coming from less technical parts of CC. It is updated without a formal review process, as a part of the learning process itself.
+<p>This set of documents and resources are a work in progress, and will likely always be only that. It is mainly built as I am learning pentesting, coming from less technical parts of CC. It is updated without a formal review process, as a part of the learning process itself.
 
 For this reason, it should **not** be considered an authoritative resource: it is neither complete, nor error-free. It should rather be used as a companion document for evaluators trying to build their own method, and should be questioned at each step!
 
-The method also assumes that the reader has some working knowledge of the CC AVA\_VAN.3 requirement, which implies the knowledge of the associated jargon: attack potential, TOE, TSF, and so on.
+The method also assumes that the reader has some working knowledge of the CC AVA\_VAN.3 requirement, which implies the knowledge of the associated jargon: attack potential, TOE, TSF, and so on.</p>
 </p></span>
 </div>
 
