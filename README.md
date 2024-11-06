@@ -4,16 +4,13 @@ description: A software AVA_VAN.3 method for Linux-based TOEs
 
 # README
 
-<div class="warning" style='padding:0.1em; background-color:#E9D8FD; color:#69337A'>
-<span>
-<p style='margin-top:1em; text-align:center'>
-<p>This set of documents and resources are a work in progress, and will likely always be only that. It is mainly built as I am learning pentesting, coming from less technical parts of CC. It is updated without a formal review process, as a part of the learning process itself.
+_Disclaimer:
+
+This set of documents and resources are a work in progress, and will likely always be only that. It is mainly built as I am learning pentesting, coming from less technical parts of CC. It is updated without a formal review process, as a part of the learning process itself.
 
 For this reason, it should **not** be considered an authoritative resource: it is neither complete, nor error-free. It should rather be used as a companion document for evaluators trying to build their own method, and should be questioned at each step!
 
-The method also assumes that the reader has some working knowledge of the CC AVA\_VAN.3 requirement, which implies the knowledge of the associated jargon: attack potential, TOE, TSF, and so on.</p>
-</p></span>
-</div>
+The method also assumes that the reader has some working knowledge of the CC AVA\_VAN.3 requirement, which implies the knowledge of the associated jargon: attack potential, TOE, TSF, and so on._
 
 ## Why this method
 
@@ -31,7 +28,6 @@ This set of documents and resources intends to help an evaluator in the course o
 ## Evaluation prerequisites
 The [Prerequisites](Linux\_pentest/0\_Prerequisites.md) refine the CC requirements  in order to ensure that the information given in the ADV\_ and ALC\_ activities is ultimately relevant for the subsequent AVA\_VAN activities.
 
-<div class="warning" style='padding:0.1em; background-color:#E9D8FD; color:#69337A'>
 
 *Rationale:*
 The main principle to understand is that **a product AVA\_VAN evaluation is not a CTF, it is not even pentesting** ! An evaluator that spends only 2 weeks of pentests is supposed to conclude whether it will resist 2 months of analysis in a black-box setting by an attacker with a similar skillset (see \[CEM, B.4.2.3 Calculation of attack potential]). To be able to make such a claim, the evaluator _must_ leverage more information (and access) than this hypothetical  attacker would possess:&#x20;
@@ -42,7 +38,6 @@ The main principle to understand is that **a product AVA\_VAN evaluation is not 
  - The analysis relies on the scoring of attacks on an attack potential scale, which means that the evaluator **does not have to actually perform attacks** whenever a vulnerability is scored as low enough.
 
 In theory, CC requires such documentation and access, but the standard expresses this in a technology-agnostic manner - this often results in a documentation that mindlessly tries to meet CC requirements, without contextualizing/tailoring it for the specific TOE (or even TOE type). It ultimately gives the evaluator few actionable insight over a standard black-box context.
-</div>
 
 
 ## Evaluation methodology
@@ -57,8 +52,6 @@ This method aims at providing a **limited set of choices for the evalautor**, so
      - Python code review \[planned but not started yet]
    - [Public vulnerability analysis](\_1\_Public\_vulnerability\_analysis/Public\_vulnerability\_analysis\_101.md) \[planned but not started yet]
 
-<div class="warning" style='padding:0.1em; background-color:#E9D8FD; color:#69337A'>
-
 *Rationale:*
 From a methodological point of view, the main issues are:
 
@@ -70,4 +63,4 @@ Therefore, the evaluator always needs to ask themselves at each step:
  - What am I trying to achieve? (i.e. what are my objectives and _attack scenarios_?)
  - What are the resources I can use? (i.e. what are the available _attack vectors_)
  - What can I use to exploit these resources? (_method and tools_)
-</div>
+
