@@ -8,7 +8,7 @@ _This set of documents and resources are a work in progress, and will likely alw
 
 # Why this method
 
-**This set of documents and resources intends to help an evaluator in the course of performing a vulnerability analysis in the context of a *software CC evaluation at the level AVA\_VAN.3*. This makes it somehow relevant as well for standards such as FitCEM/CSPN/BSZ, that are meant as simplified versions of this standard at this specific level.**
+**This set of documents and resources intends to help an evaluator in the course of performing a Common Criteria AVA_VAN.3 evaluation of a Linux-based software TOE. This makes it somehow relevant as well for standards such as FitCEM/CSPN/BSZ, that are meant as simplified versions of this standard at this specific level.**
 
 _Rationale:_
 
@@ -22,7 +22,7 @@ _When performing product evaluation following Common Criteria (or ISO/IEC 15408/
 
 # Evaluation prerequisites
 
-**The [Prerequisites](Linux\_pentest/0\_Prerequisites.md) refine the CC requirements  in order to ensure that the information given in the ADV\_ and ALC\_ activities is ultimately relevant for the subsequent AVA\_VAN activities. The evaluator *must* participate in the ADV review and make sure that these prerequisites are met.**
+**The [Prerequisites](Linux\_pentest/0\_Prerequisites.md) refine the CC requirements for Linux-based TOEs in order to ensure that the information given in the ADV and ALC activities is ultimately relevant for the subsequent AVA\_VAN.3 activities. The evaluator *must* participate in the ADV and ALC review and make sure that these prerequisites are met.**
 
 
 _Rationale:_
