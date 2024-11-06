@@ -12,7 +12,7 @@ This set of documents and resources are a work in progress, and will likely alwa
 For this reason, it should **not** be considered an authoritative resource: it is neither complete, nor error-free. It should rather be used as a companion document for evaluators trying to build their own method, and should be questioned at each step!
 
 The method also assumes that the reader has some working knowledge of the CC AVA\_VAN.3 requirement, which implies the knowledge of the associated jargon: attack potential, TOE, TSF, and so on.
-</p></p>span>
+</p></span>
 </div>
 
 ## Why this method
