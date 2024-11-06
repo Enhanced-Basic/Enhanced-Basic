@@ -22,7 +22,7 @@ _When performing product evaluation following Common Criteria (or ISO/IEC 15408/
 
 # Evaluation prerequisites
 
-**The [Prerequisites](Linux\_pentest/0\_Prerequisites.md) refine the CC requirements  in order to ensure that the information given in the ADV\_ and ALC\_ activities is ultimately relevant for the subsequent AVA\_VAN activities. The evaluator *must* participate in the ADV review and make sure that these prerequisites are met. **
+**The [Prerequisites](Linux\_pentest/0\_Prerequisites.md) refine the CC requirements  in order to ensure that the information given in the ADV\_ and ALC\_ activities is ultimately relevant for the subsequent AVA\_VAN activities. The evaluator *must* participate in the ADV review and make sure that these prerequisites are met.**
 
 
 _Rationale:_
