@@ -1,3 +1,6 @@
+title: Enhanced-Basic
+description: A method for AVA_VAN.3 testing of Linux-based products 
+
 remote_theme: pages-themes/minimal@v0.2.0
 
 plugins:
