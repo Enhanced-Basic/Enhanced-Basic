@@ -1,7 +1,9 @@
 ---
 description: A software AVA_VAN.3 method for Linux-based TOEs
 ---
-# Prerequisites
+# Introduction and prerequisites
+
+**This method is intended for evaluators performing Common Criteria AVA_VAN.3 evaluations of Linux-based software TOEs. This makes it somehow relevant as well for standards such as FitCEM/CSPN/BSZ, that are meant as simplified versions of this standard at this specific level.**
 
 **This method defines [Prerequisites](Linux_pentest/0_Prerequisites.md). These prerequisites refine the Common Criteria ALC/ADV requirements for Linux-based TOEs. The AVA_VAN evaluator *must* participate in the ALC/ADV review and make sure that these prerequisites are met.**
 
@@ -25,11 +27,6 @@ _**A product AVA_VAN evaluation is not a CTF, it is not even real pentesting!** 
    - **[Public vulnerability analysis](_1_Public_vulnerability_analysis/Public_vulnerability_analysis_101.md) \[planned but not started yet]**
 
 # Why this method
-
-**This set of documents and resources intends to help an evaluator in the course of performing a Common Criteria AVA_VAN.3 evaluation of a Linux-based software TOE. This makes it somehow relevant as well for standards such as FitCEM/CSPN/BSZ, that are meant as simplified versions of this standard at this specific level.**
-
-
-_Rationale:_
 
 _When performing product evaluation following Common Criteria (or ISO/IEC 15408/18045, which we will later call CC), one will have to perform vulnerability analysis (a.k.a. AVA_VAN). The standard gives some expectations of which activities have to be performed (spoiler alert: _penetration testing_ is expected) and it also provides a scale of increasing effort that will result in increasing assurance in the product resistance. However, it remains a technology-agnostic standard, and does not really got into any depth wrt actual testing methods, tools or state-of-the-art. On the other end, there are online and paper resources, as well as professional training and CTF competitions, related to penetration testing. Unfortunately, it is not always trivial to adapt this body of knowledge to CC evaluation, for several reasons:_
 
