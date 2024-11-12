@@ -1,6 +1,12 @@
 ---
 description: A software AVA_VAN.3 method for Linux-based TOEs
 ---
+# Main table of contents
+ - [Introduction and prerequisites](#Introduction-and-prerequisites)
+ - [Evaluation methodology](#Evaluation-methodology)
+ - [Why this method](#Why-this-method)
+
+
 # Introduction and prerequisites
 
 This method is intended for evaluators performing Common Criteria AVA_VAN.3 evaluations of Linux-based software TOEs. This makes it somehow relevant as well for standards such as FitCEM/CSPN/BSZ, that are meant as simplified versions of this standard at this specific level.
@@ -18,7 +24,7 @@ This method aims at providing a limited set of choices for the evaluator, so tha
    - Code review:
      - [C code review](Linux_pentest/Code_review/C_code_review_VAN3.md)
      - Python code review \[planned but not started yet]
-   - [Public vulnerability analysis](_1_Public_vulnerability_analysis/Public_vulnerability_analysis_101.md) \[planned but not started yet]
+   - Public vulnerability analysis \[planned but not started yet]
 
 # Why this method
 
