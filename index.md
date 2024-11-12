@@ -2,9 +2,9 @@
 description: A software AVA_VAN.3 method for Linux-based TOEs
 ---
 # Main table of contents
- - [Introduction and prerequisites](#Introduction-and-prerequisites)
- - [Evaluation methodology](#Evaluation-methodology)
- - [Why this method](#Why-this-method)
+ - [Introduction and prerequisites](#introduction-and-prerequisites)
+ - [Evaluation methodology](#evaluation-methodology)
+ - [Why this method](#why-this-method)
 
 
 # Introduction and prerequisites
