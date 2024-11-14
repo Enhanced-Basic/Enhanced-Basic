@@ -42,6 +42,8 @@ Why are there prerequisites?
  - The analysis relies on the scoring of attacks on an attack potential scale, which means that the evaluator **does not have to actually perform attacks** whenever a vulnerability is scored as low enough.
 
 
-_Disclaimer:_
+_Disclaimers:_
 
 _This set of documents and resources are a work in progress, and will likely always be only that. It is mainly built as I am learning pentesting, coming from less technical parts of CC. It is updated without a formal review process, as a part of the learning process itself. For this reason, it should **not** be considered an authoritative resource: it is neither complete, nor error-free - I'm also well aware that parts of it are still naive drafts (e.g. the identificaiton scripts). So in a nutshell: use it as a companion document when building your own method, question it at each step, and if you can improve it, please [contact me](mailto:enhancedbasic@gmail.com) and contribute... The method also assumes that the reader has some working knowledge of the CC AVA_VAN.3 requirement, which implies the knowledge of the associated jargon: attack potential, TOE, TSF, and so on._
+
+_I have been (and still am) working for various private or public organizations that have their own (sometime competing) interests in CC evaluation or certification. However, this repository is a personal project meant as a return of experience that could prove valuable for me OR anyone involved in such processes. It does not support the respective agendas of any of my past or current employers, and only tries to provide a reasonable, balanced and usable implementation of CC requirements for some technologies._
